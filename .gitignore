@@ -1,0 +1,10 @@
+/node_modules
+/logs
+/build
+/.env
+/dist
+/src/certs
+/cert
+*.exe
+/.psd
+*.psd
