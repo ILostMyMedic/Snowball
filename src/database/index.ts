@@ -2,6 +2,8 @@ import logger from "../utils/logger";
 import { MongoClient } from "mongodb";
 import env from "../utils/env.process";
 
+import { IGuildQueue } from "../interfaces/games";
+import { IMember } from "../interfaces/members";
 export default class Database {
 	public static instance: Database | null = null;
 	private static connection: MongoClient;
@@ -48,6 +50,91 @@ export default class Database {
 			this.disconnect();
 
 			return data;
+		} catch (error) {
+			logger.error(error);
+		}
+	}
+
+	public static async delete(collection: string, key: string) {
+		try {
+			this.getInstance();
+
+			await Database.connection
+				.db("snowball")
+				.collection(collection)
+				.deleteOne({ id: key });
+
+			this.disconnect();
+		} catch (error) {
+			logger.error(error);
+		}
+	}
+
+	public static async getCount(collection: string) {
+		try {
+			this.getInstance();
+
+			const count = await Database.connection
+				.db("snowball")
+				.collection(collection)
+				.countDocuments();
+
+			this.disconnect();
+
+			return count;
+		} catch (error) {
+			logger.error(error);
+		}
+	}
+
+	/**
+	 * Specific queries
+	 */
+	public static async addMemberToQueue(
+		guildId: string,
+		member: IMember,
+		collection: string
+	) {
+		try {
+			this.getInstance();
+
+			// await Database.connection
+			// 	.db("snowball")
+			// 	.collection(collection)
+			// 	.updateOne({ id: guildId }, { $push: { members: member } });
+
+			// upsert with $addToSet
+			await Database.connection
+				.db("snowball")
+				.collection(collection)
+				.updateOne(
+					{ id: guildId },
+					{ $addToSet: { members: member } },
+					{ upsert: true }
+				);
+
+			this.disconnect();
+		} catch (error) {
+			logger.error(error);
+		}
+	}
+	public static async removeMemberFromQueue(
+		guildId: string,
+		memberId: string,
+		collection: string
+	) {
+		try {
+			this.getInstance();
+
+			await Database.connection
+				.db("snowball")
+				.collection(collection)
+				.updateOne(
+					{ id: guildId },
+					{ $pull: { members: { id: memberId } } }
+				);
+
+			this.disconnect();
 		} catch (error) {
 			logger.error(error);
 		}

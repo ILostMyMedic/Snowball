@@ -11,8 +11,8 @@ import env from "../../../utils/env.process";
 
 export default {
 	data: new SlashCommandBuilder()
-		.setName("play")
-		.setDescription("Ready up!")
+		.setName("leave")
+		.setDescription("Leave the queue.")
 		// default permissions for everyone
 		.setDefaultMemberPermissions(PermissionFlagsBits.SendMessages),
 	async execute(interaction: any) {
@@ -25,12 +25,12 @@ export default {
 		// const cooldown = `<t:${Math.floor(Date.now() / 1000) + 1800}:R>`;
 		const SuccessEmbed = new EmbedBuilder()
 			.setColor(colors.success as any)
-			.setDescription(`${emojis.success} You have entered the queue!`);
+			.setDescription(`${emojis.success} You have left the queue!`);
 
 		try {
 			axios.defaults.headers.common["Authorization"] = env.apiKey;
 			const res = await axios.post(
-				`http://localhost:${env.port}/game/play`,
+				`http://localhost:${env.port}/game/leave`,
 				{
 					guildId: guild.id,
 					userId: user.id,
@@ -47,6 +47,7 @@ export default {
 			}
 			return await interaction.reply({
 				embeds: [SuccessEmbed],
+				ephemeral: true,
 			});
 		} catch (err: any) {
 			logger.error(err);

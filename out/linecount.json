@@ -1,0 +1,611 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "f:\\Discord\\buildathon",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2023-11-02 17:43:53",
+            "filesum": 98,
+            "codesum": 5637,
+            "commentsum": 176,
+            "blanksum": 229,
+            "filelist": [
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": ".env"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": ".eslintrc.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": ".prettierrc"
+                },
+                {
+                    "blank": 0,
+                    "code": 82,
+                    "comment": 0,
+                    "filename": "cert\\snowball.pem"
+                },
+                {
+                    "blank": 0,
+                    "code": 53,
+                    "comment": 4,
+                    "filename": "dist\\ecosystem.config.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 92,
+                    "comment": 2,
+                    "filename": "dist\\src\\apps\\client.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "dist\\src\\apps\\server.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "dist\\src\\client.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 9,
+                    "filename": "dist\\src\\constants\\global.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 4,
+                    "filename": "dist\\src\\constants\\MQ.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "dist\\src\\constants\\statusCodes.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 453,
+                    "comment": 0,
+                    "filename": "dist\\src\\data\\profanity.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist\\src\\database\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist\\src\\functions\\create.channel.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 46,
+                    "comment": 1,
+                    "filename": "dist\\src\\functions\\profanity.filter.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 2,
+                    "filename": "dist\\src\\functions\\translate.filter.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 60,
+                    "comment": 6,
+                    "filename": "dist\\src\\handlers\\command.handler.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 61,
+                    "comment": 3,
+                    "filename": "dist\\src\\handlers\\event.handler.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "dist\\src\\interactions\\commands\\admin\\create.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 1,
+                    "filename": "dist\\src\\interactions\\commands\\admin\\setconf.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 43,
+                    "comment": 4,
+                    "filename": "dist\\src\\interactions\\commands\\admin\\setup.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "dist\\src\\interactions\\commands\\members\\duck.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "dist\\src\\interactions\\commands\\members\\invite.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "dist\\src\\interactions\\commands\\members\\play.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "dist\\src\\interactions\\commands\\members\\queue.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "dist\\src\\interactions\\commands\\members\\throw.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 35,
+                    "comment": 2,
+                    "filename": "dist\\src\\interactions\\events\\interaction\\create.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 3,
+                    "filename": "dist\\src\\interactions\\events\\messages\\create.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "dist\\src\\interfaces\\games\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "dist\\src\\interfaces\\members\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "dist\\src\\MQ\\connect.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist\\src\\MQ\\listeners\\commands.MQ.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist\\src\\MQ\\listeners\\game.MQ.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "dist\\src\\MQ\\listeners\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "dist\\src\\utils\\env.process.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 153,
+                    "comment": 13,
+                    "filename": "dist\\src\\utils\\logger.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 7,
+                    "filename": "dist\\src\\utils\\processes.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 52,
+                    "comment": 4,
+                    "filename": "ecosystem.config.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "logs\\.5f80452cd706cb705eb9f873e8a0f34e8d0a9993-audit.json"
+                },
+                {
+                    "filename": "logs\\2023-10-30.log",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "logs\\2023-10-31.log",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "logs\\2023-11-02.log",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "logs\\pm2\\error.log"
+                },
+                {
+                    "blank": 0,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "logs\\pm2\\out.log"
+                },
+                {
+                    "blank": 0,
+                    "code": 2241,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 18,
+                    "code": 25,
+                    "comment": 9,
+                    "filename": "readme.md"
+                },
+                {
+                    "filename": "Snowball pfp.psd",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\API\\index.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 1,
+                    "filename": "src\\API\\middleware\\apiUsage.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "src\\API\\routes\\game\\index.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "src\\API\\routes\\game\\leave.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "src\\API\\routes\\game\\play.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\API\\routes\\game\\queue.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src\\API\\routes\\guild\\index.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src\\API\\routes\\member\\index.ts"
+                },
+                {
+                    "blank": 13,
+                    "code": 92,
+                    "comment": 2,
+                    "filename": "src\\apps\\client.ts"
+                },
+                {
+                    "blank": 11,
+                    "code": 42,
+                    "comment": 1,
+                    "filename": "src\\apps\\server.ts"
+                },
+                {
+                    "filename": "src\\assets\\programmer.gif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\assets\\Snowball.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "src\\client.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 9,
+                    "filename": "src\\constants\\global.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\constants\\MQ.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "src\\constants\\statusCodes.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 451,
+                    "comment": 0,
+                    "filename": "src\\data\\profanity.ts"
+                },
+                {
+                    "blank": 25,
+                    "code": 113,
+                    "comment": 9,
+                    "filename": "src\\database\\index.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "src\\database\\resolvers\\guilds.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src\\database\\resolvers\\index.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\functions\\create.channel.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 41,
+                    "comment": 1,
+                    "filename": "src\\functions\\profanity.filter.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 2,
+                    "filename": "src\\functions\\translate.filter.ts"
+                },
+                {
+                    "blank": 11,
+                    "code": 36,
+                    "comment": 6,
+                    "filename": "src\\handlers\\command.handler.ts"
+                },
+                {
+                    "blank": 11,
+                    "code": 37,
+                    "comment": 3,
+                    "filename": "src\\handlers\\event.handler.ts"
+                },
+                {
+                    "blank": 8,
+                    "code": 50,
+                    "comment": 6,
+                    "filename": "src\\handlers\\queue.handler.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "src\\interactions\\commands\\admin\\create.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 1,
+                    "filename": "src\\interactions\\commands\\admin\\setconf.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 54,
+                    "comment": 8,
+                    "filename": "src\\interactions\\commands\\admin\\setup.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "src\\interactions\\commands\\members\\duck.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "src\\interactions\\commands\\members\\invite.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 52,
+                    "comment": 3,
+                    "filename": "src\\interactions\\commands\\members\\leave.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 51,
+                    "comment": 3,
+                    "filename": "src\\interactions\\commands\\members\\play.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 39,
+                    "comment": 2,
+                    "filename": "src\\interactions\\commands\\members\\queue.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 28,
+                    "comment": 4,
+                    "filename": "src\\interactions\\commands\\members\\throw.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 28,
+                    "comment": 2,
+                    "filename": "src\\interactions\\events\\interaction\\create.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 3,
+                    "filename": "src\\interactions\\events\\messages\\create.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 34,
+                    "comment": 4,
+                    "filename": "src\\interfaces\\games\\index.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src\\interfaces\\guilds\\index.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\interfaces\\members\\index.ts"
+                },
+                {
+                    "blank": 9,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "src\\MQ\\connect.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\MQ\\listeners\\commands.MQ.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src\\MQ\\listeners\\game.MQ.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src\\MQ\\listeners\\index.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "src\\server.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src\\utils\\env.process.ts"
+                },
+                {
+                    "blank": 16,
+                    "code": 202,
+                    "comment": 13,
+                    "filename": "src\\utils\\logger.ts"
+                },
+                {
+                    "blank": 9,
+                    "code": 26,
+                    "comment": 7,
+                    "filename": "src\\utils\\processes.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "tsconfig.json"
+                }
+            ]
+        }
+    ]
+}

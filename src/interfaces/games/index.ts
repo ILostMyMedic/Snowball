@@ -1,15 +1,15 @@
-import IMembers from "../members";
-
+import { IMember } from "../members";
+// possible team names
 export const enum Team {
 	rudolph = "Rudolph",
 	elves = "Elves",
 	snowman = "Snowman",
 	santa = "Santa",
 }
-
+// teams
 export interface ITeam {
 	team: Team;
-	members: IMembers[];
+	members: IMember[];
 	hits: number;
 	misses: number;
 	throws: number;
@@ -17,25 +17,24 @@ export interface ITeam {
 	minPlayers: number;
 	ready: boolean;
 }
-
-export default interface IGame {
+// started game
+export interface IGame {
 	guildIds: string[];
 	teams: ITeam[];
 	channelIds: string[];
-	winner: Team;
-	loser: Team;
+	winner: Team | null;
+	loser: Team | null;
 
 	snowballCooldown: number;
 
-	started: boolean;
-	ended: boolean;
-	timeStarted: number;
-	timeEnded: number;
+	started: boolean | null;
+	ended: boolean | null;
+	timeStarted: number | null;
+	timeEnded: number | null;
 }
-
-export interface IMatchmaking {
+// queue
+export interface IGuildQueue {
 	guildId: string;
 	channelId: string;
-	team: Team;
-	member: IMembers;
+	members: IMember[];
 }

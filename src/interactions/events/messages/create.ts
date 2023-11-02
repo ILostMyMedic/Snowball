@@ -16,7 +16,6 @@ export default {
 		const translated = await detectAndTranslate(message.content);
 		const profanity = await profanityFilter(translated);
 
-
 		// reply
 		await message.reply({ content: profanity });
 	},

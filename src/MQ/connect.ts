@@ -1,5 +1,6 @@
 import amqplib from "amqplib";
 import env from "../utils/env.process";
+import { QueueType } from "../constants/MQ";
 
 interface ConsumeCallback {
 	(message: amqplib.ConsumeMessage | null): void;
@@ -22,17 +23,22 @@ export default class MQ {
 		return MQ.instance;
 	}
 
-	public async sendToQueue(queue: string, message: string): Promise<void> {
-		await MQ.channel.assertQueue(`${queue}-Engine`);
-		await MQ.channel.sendToQueue(`${queue}-Engine`, Buffer.from(message));
+	public async sendToQueue(
+		type: QueueType,
+		queue: string,
+		message: string
+	): Promise<void> {
+		await MQ.channel.assertQueue(`${queue}-${type}`);
+		await MQ.channel.sendToQueue(`${queue}-${type}`, Buffer.from(message));
 	}
 
 	public async receive(
+		type: QueueType,
 		queue: string,
 		callback: ConsumeCallback
 	): Promise<void> {
-		await MQ.channel.assertQueue(`${queue}-Client`);
-		await MQ.channel.consume(`${queue}-Client`, callback);
+		await MQ.channel.assertQueue(`${queue}-${type}`);
+		await MQ.channel.consume(`${queue}-${type}`, callback);
 	}
 
 	public async close(): Promise<void> {

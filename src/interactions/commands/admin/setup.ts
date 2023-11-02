@@ -56,9 +56,14 @@ export default {
 		);
 
 		// send the embed with buttons
-		await interaction.reply({
-			embeds: [embed],
-			components: [buttons],
+		// await interaction.reply({
+		// 	embeds: [embed],
+		// 	components: [buttons],
+		// });
+
+		interaction.reply({
+			content: "This command is not yet implemented!",
+			ephemeral: true,
 		});
 	},
 };

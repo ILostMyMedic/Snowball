@@ -10,6 +10,7 @@ export const emojis = {
 };
 
 export const colors = {
+	info: "#2b9eff",
 	// success
 	success: "#2bff91",
 	// error

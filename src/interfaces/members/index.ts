@@ -1,6 +1,6 @@
-export default interface IMember {
+export interface IMember {
 	id: string;
-	displayName: string;
+	displayName?: string;
 	hits: number;
 	misses: number;
 	throws: number;

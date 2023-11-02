@@ -15,5 +15,10 @@ export default {
 		.setDescription("Set the configuration for the snowball fight game!")
 		// default permissions for everyone
 		.setDefaultMemberPermissions(PermissionFlagsBits.KickMembers),
-	async execute(interaction: any) {},
+	async execute(interaction: any) {
+		interaction.reply({
+			content: "This command is not yet implemented!",
+			ephemeral: true,
+		});
+	},
 };

@@ -30,7 +30,7 @@ module.exports = {
 		},
 		{
 			name: "Buildathon-Server",
-			script: "./dist/src/apps/server.js",
+			script: "./dist/src/server.js",
 			instances: 4,
 			autorestart: true,
 			watch: false,

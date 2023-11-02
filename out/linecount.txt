@@ -1,0 +1,110 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2023-11-02 17:43:53
+count workspace : f:\Discord\buildathon
+total files : 98
+total code lines : 5637
+total comment lines : 176
+total blank lines : 229
+
+.env, code is 8, comment is 0, blank is 1.
+.eslintrc.json, code is 19, comment is 0, blank is 0.
+.gitignore, code is 10, comment is 0, blank is 0.
+.prettierrc, code is 10, comment is 0, blank is 0.
+cert\snowball.pem, code is 82, comment is 0, blank is 0.
+dist\ecosystem.config.js, code is 53, comment is 4, blank is 0.
+dist\src\apps\client.js, code is 92, comment is 2, blank is 0.
+dist\src\apps\server.js, code is 13, comment is 0, blank is 0.
+dist\src\client.js, code is 19, comment is 0, blank is 0.
+dist\src\constants\global.js, code is 17, comment is 9, blank is 0.
+dist\src\constants\MQ.js, code is 17, comment is 4, blank is 0.
+dist\src\constants\statusCodes.js, code is 26, comment is 0, blank is 0.
+dist\src\data\profanity.js, code is 453, comment is 0, blank is 0.
+dist\src\database\index.js, code is 1, comment is 0, blank is 0.
+dist\src\functions\create.channel.js, code is 1, comment is 0, blank is 0.
+dist\src\functions\profanity.filter.js, code is 46, comment is 1, blank is 0.
+dist\src\functions\translate.filter.js, code is 6, comment is 2, blank is 0.
+dist\src\handlers\command.handler.js, code is 60, comment is 6, blank is 0.
+dist\src\handlers\event.handler.js, code is 61, comment is 3, blank is 0.
+dist\src\interactions\commands\admin\create.js, code is 12, comment is 1, blank is 0.
+dist\src\interactions\commands\admin\setconf.js, code is 10, comment is 1, blank is 0.
+dist\src\interactions\commands\admin\setup.js, code is 43, comment is 4, blank is 3.
+dist\src\interactions\commands\members\duck.js, code is 12, comment is 1, blank is 0.
+dist\src\interactions\commands\members\invite.js, code is 12, comment is 1, blank is 0.
+dist\src\interactions\commands\members\play.js, code is 12, comment is 1, blank is 0.
+dist\src\interactions\commands\members\queue.js, code is 12, comment is 1, blank is 0.
+dist\src\interactions\commands\members\throw.js, code is 21, comment is 4, blank is 0.
+dist\src\interactions\events\interaction\create.js, code is 35, comment is 2, blank is 0.
+dist\src\interactions\events\messages\create.js, code is 21, comment is 3, blank is 0.
+dist\src\interfaces\games\index.js, code is 2, comment is 0, blank is 0.
+dist\src\interfaces\members\index.js, code is 2, comment is 0, blank is 0.
+dist\src\MQ\connect.js, code is 34, comment is 0, blank is 0.
+dist\src\MQ\listeners\commands.MQ.js, code is 1, comment is 0, blank is 0.
+dist\src\MQ\listeners\game.MQ.js, code is 1, comment is 0, blank is 0.
+dist\src\MQ\listeners\index.js, code is 1, comment is 0, blank is 0.
+dist\src\utils\env.process.js, code is 8, comment is 0, blank is 0.
+dist\src\utils\logger.js, code is 153, comment is 13, blank is 0.
+dist\src\utils\processes.js, code is 34, comment is 7, blank is 0.
+ecosystem.config.js, code is 52, comment is 4, blank is 4.
+logs\.5f80452cd706cb705eb9f873e8a0f34e8d0a9993-audit.json, code is 25, comment is 0, blank is 0.
+logs\2023-10-30.log, it is a binary file.
+logs\2023-10-31.log, it is a binary file.
+logs\2023-11-02.log, it is a binary file.
+logs\pm2\error.log, code is 0, comment is 0, blank is 0.
+logs\pm2\out.log, code is 69, comment is 0, blank is 0.
+package-lock.json, code is 2241, comment is 0, blank is 0.
+package.json, code is 37, comment is 0, blank is 0.
+readme.md, code is 25, comment is 9, blank is 18.
+Snowball pfp.psd, it is a binary file.
+src\API\index.ts, code is 9, comment is 0, blank is 3.
+src\API\middleware\apiUsage.ts, code is 15, comment is 1, blank is 3.
+src\API\routes\game\index.ts, code is 8, comment is 0, blank is 3.
+src\API\routes\game\leave.ts, code is 34, comment is 0, blank is 5.
+src\API\routes\game\play.ts, code is 30, comment is 0, blank is 4.
+src\API\routes\game\queue.ts, code is 13, comment is 0, blank is 2.
+src\API\routes\guild\index.ts, code is 3, comment is 0, blank is 2.
+src\API\routes\member\index.ts, code is 3, comment is 0, blank is 2.
+src\apps\client.ts, code is 92, comment is 2, blank is 13.
+src\apps\server.ts, code is 42, comment is 1, blank is 11.
+src\assets\programmer.gif, it is a binary file.
+src\assets\Snowball.png, it is a binary file.
+src\client.ts, code is 14, comment is 0, blank is 5.
+src\constants\global.ts, code is 15, comment is 9, blank is 1.
+src\constants\MQ.ts, code is 12, comment is 0, blank is 2.
+src\constants\statusCodes.ts, code is 23, comment is 0, blank is 2.
+src\data\profanity.ts, code is 451, comment is 0, blank is 0.
+src\database\index.ts, code is 113, comment is 9, blank is 25.
+src\database\resolvers\guilds.ts, code is 26, comment is 0, blank is 3.
+src\database\resolvers\index.ts, code is 2, comment is 0, blank is 1.
+src\functions\create.channel.ts, code is 0, comment is 0, blank is 0.
+src\functions\profanity.filter.ts, code is 41, comment is 1, blank is 3.
+src\functions\translate.filter.ts, code is 6, comment is 2, blank is 3.
+src\handlers\command.handler.ts, code is 36, comment is 6, blank is 11.
+src\handlers\event.handler.ts, code is 37, comment is 3, blank is 11.
+src\handlers\queue.handler.ts, code is 50, comment is 6, blank is 8.
+src\interactions\commands\admin\create.ts, code is 11, comment is 1, blank is 1.
+src\interactions\commands\admin\setconf.ts, code is 22, comment is 1, blank is 1.
+src\interactions\commands\admin\setup.ts, code is 54, comment is 8, blank is 7.
+src\interactions\commands\members\duck.ts, code is 11, comment is 1, blank is 1.
+src\interactions\commands\members\invite.ts, code is 11, comment is 1, blank is 1.
+src\interactions\commands\members\leave.ts, code is 52, comment is 3, blank is 6.
+src\interactions\commands\members\play.ts, code is 51, comment is 3, blank is 6.
+src\interactions\commands\members\queue.ts, code is 39, comment is 2, blank is 4.
+src\interactions\commands\members\throw.ts, code is 28, comment is 4, blank is 4.
+src\interactions\events\interaction\create.ts, code is 28, comment is 2, blank is 4.
+src\interactions\events\messages\create.ts, code is 16, comment is 3, blank is 3.
+src\interfaces\games\index.ts, code is 34, comment is 4, blank is 2.
+src\interfaces\guilds\index.ts, code is 4, comment is 0, blank is 0.
+src\interfaces\members\index.ts, code is 7, comment is 0, blank is 0.
+src\MQ\connect.ts, code is 43, comment is 0, blank is 9.
+src\MQ\listeners\commands.MQ.ts, code is 0, comment is 0, blank is 0.
+src\MQ\listeners\game.MQ.ts, code is 6, comment is 0, blank is 1.
+src\MQ\listeners\index.ts, code is 5, comment is 0, blank is 2.
+src\server.ts, code is 14, comment is 0, blank is 2.
+src\utils\env.process.ts, code is 15, comment is 0, blank is 1.
+src\utils\logger.ts, code is 202, comment is 13, blank is 16.
+src\utils\processes.ts, code is 26, comment is 7, blank is 9.
+tsconfig.json, code is 14, comment is 0, blank is 0.
+===============================================================================
